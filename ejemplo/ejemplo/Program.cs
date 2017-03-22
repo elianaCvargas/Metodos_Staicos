@@ -10,6 +10,18 @@ namespace ejemplo
     {
         static void Main(string[] args)
         {
+            int elMayor;
+            string dato;
+ 
+
+            Console.WriteLine("Hola mundo");
+            elMayor = Comparadora.retornarMayor(10, 5);
+            sello.mensaje = "Nuevo mensaje";
+            sello.color = ConsoleColor.DarkBlue;
+            dato  = sello.imprimir();
+
+            sello.imprimirEnColor();
+            Console.ReadLine();
         }
     }
 }
